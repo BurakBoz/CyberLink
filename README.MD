@@ -8,6 +8,9 @@ I'm currently a student and unemployed.
 If this library helps you please consider helping me with making donation it will help me a lot. 🙏
 ```
 
+##Composer Install
+`composer require burakboz/cyberlink:dev-master`
+
 ## Donations 
 ```
 BANK       : ENPARA.COM
