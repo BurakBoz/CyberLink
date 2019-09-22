@@ -1,0 +1,24 @@
+{
+    "version": "0.0.1",
+    "name": "burakboz/cyberlink",
+    "description": "Fills the missing CyberPanel API. Warning: It's not an API or API service. It uses ssh and sftp protocols to get job done and requires root access to server.",
+    "type": "library",
+    "require": {
+        "phpseclib/phpseclib": "^2.0",
+        "league/flysystem": "^1.0",
+        "league/flysystem-sftp": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Burak Boz",
+            "email": "burakboz@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "BurakBoz\\": "src/"
+        }
+    }
+}
