@@ -30,16 +30,23 @@ $port       = 22; // ssh port
 $timeout    = 20; // connection timeout
 $enableSecureFTP = false; // set it true if you use $cyberlink->setCustomSSL() method.
 $cyberlink  = new \BurakBoz\CyberLink($ip, $user, $password, $key = null, $port = 22, $timeout = 10, $enableSecureFTP = false);
-$phpVersion = "7.3",
-$owner      = "admin",
-$package    = "Default"
-if($cyberlink->createWebsite("domain.com", "admin@siteowner.com", $package, $owner, $phpVersion))
+$phpVersion = "7.3";
+$owner      = "admin";
+$package    = "Default";
+try
 {
-    echo "Host created.";
+    if($cyberlink->createWebsite("merhaba.com", "admin@siteowner.com", $package, $owner, $phpVersion))
+    {
+        echo "Host created.";
+    }
+    else
+    {
+        echo "Error: " . $cyberlink->getLastMessage();
+    }
 }
-else
+catch (Exception $e)
 {
-    echo "Error: " . $cyberlink->getLastMessage();
+    echo "Error: " . $e->getMessage();
 }
 ```
 
