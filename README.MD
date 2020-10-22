@@ -4,22 +4,10 @@
 ```
 Currently CyberPanel doesn't have API functions fully described and implemented.
 So I wrote this library.
-I'm currently a student and unemployed.
-If this library helps you please consider helping me with making donation it will help me a lot. 🙏
 ```
 
 ##Composer Install
 `composer require burakboz/cyberlink:dev-master`
-
-## Donations 
-```
-BANK       : ENPARA.COM
-ACC OWNER  : BURAK BOZ
-TRY IBAN   : TR25 0011 1000 0000 0037 0953 80 
-USD IBAN   : TR04 0011 1000 0000 0038 0408 29 
-EUR IBAN   : TR03 0011 1000 0000 0038 0408 47 
-SWIFT CODE : FNNBTRISXXX
-```
 
 ##Example usage
 ```
