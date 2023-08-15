@@ -11,7 +11,7 @@ use League\Flysystem\Sftp\SftpAdapter;
  * Class CyberLink
  * Description: Fills the missing CyberPanel API.
  * Warning: It's not an API or API service. It uses ssh and sftp protocols to get job done and requires root access to server.
- * Author: Burak BOZ <burakboz@icloud.com>
+ * Author: Burak BOZ <info@burakboz.net>
  * Github: https://github.com/burakboz
  */
 class CyberLink
